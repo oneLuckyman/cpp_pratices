@@ -24,3 +24,7 @@ int main()
          << str.size() << endl;
     return 0;
 }
+
+// 注意两次getline的区别
+// cin.getline 表明这个getline()是istream类的一个类方法
+// 第二个 getline(cin, str) 没有使用句点，这表明这个getline()不是类方法。它将 cin 作为参数，指出到哪里查找输入。
