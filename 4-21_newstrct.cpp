@@ -1,0 +1,1 @@
+// newstrct.cpp -- using new with a structure
