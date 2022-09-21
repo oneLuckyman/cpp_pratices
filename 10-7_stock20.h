@@ -6,7 +6,7 @@
 class Stock
 {
 private:
-    std::string compant;
+    std::string company;
     int shares;
     double share_val;
     double total_val;
