@@ -55,8 +55,8 @@ String & String::operator=(const String & st)
     delete [] str;
     len = st.len;
     str = new char[len + 1];
-    std::strcpy(str, s);
-    return *this
+    std::strcpy(str, st.str);
+    return *this;
 }
 
     // assign a C string to a String
